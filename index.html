@@ -54,6 +54,38 @@
         </p>
         <a href="http://classics.mit.edu/">Find out More</a>
       </section>
+
+      <form>
+        <h2>Contact Us</h2>
+
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your name" />
+
+        <label for="email">Email</label>
+        <input type="email" id="contact-email" placeholder="Enter your email" />
+
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" placeholder="Enter your phone number" />
+
+        <label for="message">Message</label>
+        <textarea id="message" placeholder="Enter your message"></textarea>
+
+        <label for="hear-select">How did you hear about us?</label>
+        <select name="pets" id="hear-select">
+          <option value="">--Please choose an option--</option>
+          <option value="dog">Dog</option>
+          <option value="cat">Cat</option>
+          <option value="hamster">Hamster</option>
+          <option value="parrot">Parrot</option>
+          <option value="spider">Spider</option>
+          <option value="goldfish">Goldfish</option>
+        </select>
+
+        <label for="interest">What's your level of interest in buying stuff?</label>
+        <input type="range" id="interest" name="interest" min="0" max="10" />
+
+        <button type="submit">Send</button>
+      </form>
     </main>
   </body>
 </html>
