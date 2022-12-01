@@ -3,6 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./index.css" />
+    
     <title>The Landing Page</title>
   </head>
   <body>
@@ -81,7 +99,9 @@
           <option value="goldfish">Goldfish</option>
         </select>
 
-        <label for="interest">What's your level of interest in buying stuff?</label>
+        <label for="interest"
+          >What's your level of interest in buying stuff?</label
+        >
         <input type="range" id="interest" name="interest" min="0" max="10" />
 
         <button type="submit">Send</button>
