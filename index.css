@@ -9,6 +9,11 @@ html {
   font-family: 'Roboto', sans-serif;
 }
 
+header {
+  padding: 1rem;
+  color: white;
+}
+
 .bg-primary {
   background-color: var(--primary-color);
 }
