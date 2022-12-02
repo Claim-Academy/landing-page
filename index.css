@@ -127,9 +127,18 @@ p {
   width: max-content;
 }
 
-#hero {
-  background-image: url('./images/bg.jpg');
+#contact, #hero {
   background-size: cover;
   background-position: center;
+}
+
+#contact {
+  background-image: url('./images/bg-2.jpg');
+  
+}
+
+
+#hero {
+  background-image: url('./images/bg.jpg');
   height: 50vh;
 }
