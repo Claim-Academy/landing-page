@@ -41,3 +41,10 @@ header {
 .text-italic {
   font-style: italic;
 }
+
+#hero {
+  background-image: url('./images/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
