@@ -142,3 +142,10 @@ p {
   background-image: url('./images/bg.jpg');
   height: 50vh;
 }
+
+/* Media queries with breakpoints */
+@media screen and (min-width: 768px) {
+  #hero section:first-of-type {
+    width: 50%;
+  }
+}
