@@ -135,7 +135,9 @@ p {
 
 #contact {
   background-image: url('./images/bg-2.jpg');
-  
+
+  /* https://stackoverflow.com/a/24084708/1653236 */
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
 }
 
 
