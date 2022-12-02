@@ -1,6 +1,6 @@
 :root {
   --primary-color: #845ec2;
-  --secondary-color: ##4e8397;
+  --secondary-color: #4e8397;
   --tertiary-color: #d5cabd;
   --accent-color: #f9f871
 }
@@ -69,6 +69,10 @@ p {
   justify-content: center;
 }
 
+.inline-block {
+  display: inline-block;
+}
+
 .rounded {
   border-radius: 0.5rem;
 }
@@ -93,8 +97,16 @@ p {
   text-align: center;
 }
 
+.text-dark {
+  color: #333;
+}
+
 .text-italic {
   font-style: italic;
+}
+
+.text-no-underline {
+  text-decoration: none;
 }
 
 #hero {
