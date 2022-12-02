@@ -75,20 +75,20 @@
         <a href="http://classics.mit.edu/" class="button bg-tertiary inline-block text-dark text-no-underline">Find out More</a>
       </section>
 
-      <form>
-        <h2>Contact Us</h2>
+      <form class="bg-dark flex flex-column gap items-center">
+        <h2 class="m-0">Contact Us</h2>
 
-        <label for="name">Name</label>
-        <input type="text" id="name" placeholder="Enter your name" />
+        <label for="name" class="sr-only">Name</label>
+        <input type="text" id="name" placeholder="Enter your name" class="rounded w-max-content"/>
 
-        <label for="email">Email</label>
-        <input type="email" id="contact-email" placeholder="Enter your email" />
+        <label for="email" class="sr-only">Email</label>
+        <input type="email" id="contact-email" placeholder="Enter your email" class="rounded w-max-content"/>
 
-        <label for="phone">Phone</label>
-        <input type="tel" id="phone" placeholder="Enter your phone number" />
+        <label for="phone" class="sr-only">Phone</label>
+        <input type="tel" id="phone" placeholder="Enter your phone number" class="rounded w-max-content"/>
 
-        <label for="message">Message</label>
-        <textarea id="message" placeholder="Enter your message"></textarea>
+        <label for="message" class="sr-only">Message</label>
+        <textarea id="message" placeholder="Enter your message" class="rounded w-max-content"></textarea>
 
         <label for="hear-select">How did you hear about us?</label>
         <select name="pets" id="hear-select">
@@ -101,12 +101,12 @@
           <option value="goldfish">Goldfish</option>
         </select>
 
-        <label for="interest"
+        <label for="interest" class="sr-only"
           >What's your level of interest in buying stuff?</label
         >
-        <input type="range" id="interest" name="interest" min="0" max="10" />
+        <input type="range" id="interest" name="interest" min="0" max="10" class="rounded w-max-content"/>
 
-        <button type="submit">Send</button>
+        <button type="submit" class="button button-submit">Send</button>
       </form>
     </main>
 
