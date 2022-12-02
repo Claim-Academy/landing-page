@@ -13,10 +13,22 @@ p {
   margin: 0.5rem;
 }
 
-.bg-primary {
-  background-color: var(--primary-color);
+.bg-primary, .bg-secondary, .bg-tertiary {
   color: white;
   padding: 1rem;
+}
+
+.bg-primary {
+  background-color: var(--primary-color);
+  
+}
+
+.bg-secondary {
+  background-color: var(--secondary-color);
+}
+
+.bg-tertiary {
+  background-color: var(--tertiary-color);
 }
 
 .bg-translucent-dark {
@@ -35,7 +47,6 @@ p {
 
 .button-submit {
   background-color: var(--accent-color);
-
 }
 
 .flex {
