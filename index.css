@@ -9,17 +9,45 @@ html {
   font-family: 'Roboto', sans-serif;
 }
 
-header {
-  padding: 1rem;
-  color: white;
+p {
+  margin: 0.5rem;
 }
 
 .bg-primary {
   background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+}
+
+.bg-translucent-dark {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 1rem;
+}
+
+.button {
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+
+.button-submit {
+  background-color: var(--accent-color);
+
 }
 
 .flex {
   display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.gap {
+  gap: 1rem;
 }
 
 .items-center {
@@ -28,6 +56,22 @@ header {
 
 .justify-center {
   justify-content: center;
+}
+
+.rounded {
+  border-radius: 0.5rem;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
 }
 
 .text-bold {
@@ -46,5 +90,5 @@ header {
   background-image: url('./images/bg.jpg');
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 50vh;
 }
