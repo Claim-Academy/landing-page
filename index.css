@@ -152,6 +152,10 @@ p {
   #hero section:first-of-type {
     width: 50%;
   }
+
+  .flex-row--md {
+    flex-direction: row;
+  }
 }
 
 @media (width >= 1024px) {
@@ -162,5 +166,4 @@ p {
   .flex-row {
     flex-direction: row;
   }
-} 
-  
+}
