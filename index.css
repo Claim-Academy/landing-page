@@ -1,3 +1,4 @@
+/* These are GLOBALLY ACCESSIBLE to any/all elements on the page. */
 :root {
   --primary-color: #845ec2;
   --secondary-color: #4e8397;
@@ -29,7 +30,6 @@ p {
 
 .bg-primary {
   background-color: var(--primary-color);
-  
 }
 
 .bg-secondary {
@@ -56,6 +56,7 @@ p {
   background-color: var(--accent-color);
 }
 
+/* A parent flexbox ONLY CONTROLS DIRECT CHILDREN. */
 .flex {
   display: flex;
 }
@@ -147,13 +148,13 @@ p {
 }
 
 /* Media queries with breakpoints */
-@media screen and (min-width: 768px) {
+@media (width >= 768px) {
   #hero section:first-of-type {
     width: 50%;
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media (width >= 1024px) {
   .flex-lg {
     display: flex;
   }
