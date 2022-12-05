@@ -30,12 +30,10 @@
 
     <main>
       <div id="hero" class="flex flex-column items-center justify-center">
-        <!-- TODO: Add a translucent white-ish background with padding around this content -->
         <section class="bg-translucent-dark rounded">
           <h2 class="text-center">Call to Action</h2>
-          <p class="text-center">Sign up for our newsletter!</p>
           <form class="flex flex-column gap items-center">
-            <label for="email" class="sr-only">Email</label>
+            <label for="email">Sign up for our newsletter!</label>
             <input type="email" id="email" placeholder="Enter your email" />
             <button type="submit" class="button button-submit">Sign Up</button>
           </form>
@@ -43,55 +41,85 @@
       </div>
 
       <div class="flex-lg flex-row">
-      <section class="bg-secondary flex items-center flex-column">
-        <h2>Our Mission</h2>
-        <p class="text-center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-          voluptates, quod, quia, voluptate quae voluptatem quidem voluptas
-          doloremque quos quibusdam nesciunt. Quisquam, quae. Quisquam, quae.
-          Quisquam, quae. Quisquam, quae.
-        </p>
-        <a href="http://classics.mit.edu/" class="button bg-tertiary inline-block text-dark text-no-underline">Find out More</a>
-      </section>
+        <section class="bg-secondary flex items-center flex-column">
+          <h2>Our Mission</h2>
+          <p class="text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            voluptates, quod, quia, voluptate quae voluptatem quidem voluptas
+            doloremque quos quibusdam nesciunt. Quisquam, quae. Quisquam, quae.
+            Quisquam, quae. Quisquam, quae.
+          </p>
+          <a
+            href="http://classics.mit.edu/"
+            class="button bg-tertiary inline-block text-dark text-no-underline"
+            >Find out More</a
+          >
+        </section>
 
-      <section class="bg-primary flex items-center flex-column">
-        <h2>Our Team</h2>
-        <p class="text-center">
+        <section class="bg-primary flex items-center flex-column">
+          <h2>Our Team</h2>
+          <p class="text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            voluptates, quod, quia, voluptate quae voluptatem quidem voluptas
+            doloremque quos quibusdam nesciunt. Quisquam, quae. Quisquam, quae.
+            Quisquam, quae. Quisquam, quae.
+          </p>
+          <a
+            href="http://classics.mit.edu/"
+            class="button bg-tertiary inline-block text-dark text-no-underline"
+            >Find out More</a
+          >
+        </section>
 
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-          voluptates, quod, quia, voluptate quae voluptatem quidem voluptas
-          doloremque quos quibusdam nesciunt. Quisquam, quae. Quisquam, quae.
-          Quisquam, quae. Quisquam, quae.
-        </p>
-        <a href="http://classics.mit.edu/" class="button bg-tertiary inline-block text-dark text-no-underline">Find out More</a>
-      </section>
-
-      <section class="bg-secondary flex items-center flex-column">
-        <h2>Our Services</h2>
-        <p class="text-center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-          voluptates, quod, quia, voluptate quae voluptatem quidem voluptas
-          doloremque quos quibusdam nesciunt. Quisquam, quae. Quisquam, quae.
-          Quisquam, quae. Quisquam, quae.
-        </p>
-        <a href="http://classics.mit.edu/" class="button bg-tertiary inline-block text-dark text-no-underline">Find out More</a>
-      </section>
-    </div>
+        <section class="bg-secondary flex items-center flex-column">
+          <h2>Our Services</h2>
+          <p class="text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            voluptates, quod, quia, voluptate quae voluptatem quidem voluptas
+            doloremque quos quibusdam nesciunt. Quisquam, quae. Quisquam, quae.
+            Quisquam, quae. Quisquam, quae.
+          </p>
+          <a
+            href="http://classics.mit.edu/"
+            class="button bg-tertiary inline-block text-dark text-no-underline"
+            >Find out More</a
+          >
+        </section>
+      </div>
 
       <form class="bg-dark flex flex-column gap items-center" id="contact">
         <h2 class="m-0">Contact Us</h2>
 
         <label for="name" class="sr-only">Name</label>
-        <input type="text" id="name" placeholder="Enter your name" class="rounded w-max-content"/>
+        <input
+          type="text"
+          id="name"
+          placeholder="Enter your name"
+          class="rounded w-max-content"
+        />
 
         <label for="email" class="sr-only">Email</label>
-        <input type="email" id="contact-email" placeholder="Enter your email" class="rounded w-max-content"/>
+        <input
+          type="email"
+          id="contact-email"
+          placeholder="Enter your email"
+          class="rounded w-max-content"
+        />
 
         <label for="phone" class="sr-only">Phone</label>
-        <input type="tel" id="phone" placeholder="Enter your phone number" class="rounded w-max-content"/>
+        <input
+          type="tel"
+          id="phone"
+          placeholder="Enter your phone number"
+          class="rounded w-max-content"
+        />
 
         <label for="message" class="sr-only">Message</label>
-        <textarea id="message" placeholder="Enter your message" class="rounded w-max-content"></textarea>
+        <textarea
+          id="message"
+          placeholder="Enter your message"
+          class="rounded w-max-content"
+        ></textarea>
 
         <label for="hear-select">How did you hear about us?</label>
         <select name="pets" id="hear-select">
